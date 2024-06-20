@@ -22,7 +22,7 @@ public class EvenOddcount {
         }
         System.out.println("Count of even number:"+Evencount);
         System.out.println("Count of odd number:"+Oddcount);
-        System.out.println("Maybe I was wrong.");
+        
 
 
     }
