@@ -23,7 +23,7 @@ public class Examiner {
         int[] totaleachstudent = new int[length];
         String[] result = new String[length];
         int passcount =0;
-        System.out.println("Hello ");
+
             
 
         for (int i = 0; i < length; i++) {
