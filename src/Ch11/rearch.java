@@ -12,17 +12,31 @@ public class rearch {
             System.out.print("Enter value "+(i+1)+":");
             A[i] =sc.nextInt();
         }
-        System.out.print("Enter the number that you want to know position :");
-        int searchnumber = sc.nextInt();
-        boolean found = false;
-        for (int i =0; i<length;i++){
-            if(A[i]==searchnumber){
-                System.out.println("The number is at "+(i+1));
-                found=true;
-            }
-        }
-        if(found!=true){
-            System.out.println("Not found your number.");
-        }
+        System.out.println("Enter the number you want to rearch.");
+        int number = sc.nextInt();
+        rearch(A,number);
     }
+    public static int rearch (int [] A, int rearchnumber) {
+        boolean found = false;
+        for (int i = 0; i < A.length; i++) {
+            if (A[i] == rearchnumber) {
+                System.out.println("The number that you want to know is at " + (i + 1));
+                found = true;
+                return i;
+            }
+
+        }
+        if (found != true) {
+            System.out.println("Not found the number.");
+        }
+    return -1;
+    }
+
 }
+
+
+
+
+
+
+
