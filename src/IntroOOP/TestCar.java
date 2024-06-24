@@ -8,6 +8,7 @@ public class TestCar {
         car.door = 4;
         car.engine = 2.5;
         car.license = "MON";
+        car.mirror = 5;
 
         Car.Drive();
         Car.Stop();
